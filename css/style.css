@@ -1,0 +1,114 @@
+body{
+	background: url('timg.jpg');
+	
+}
+#box{
+	border: 0.8px solid #AFAEAE;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	opacity: 0.8;
+	margin-top: 6%;
+	margin-left: 47%;
+	margin-right:27%;
+	border-radius: 8px;
+}
+#box #subtle{
+	font-family: "楷体",Serif;
+	text-align: center;
+	font-weight: normal;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-top: 0;
+	
+    background-color: #DAD7D7;
+}
+
+#box #myForm .input{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-radius: 3px;
+	padding: 8px;
+	font-size: 20px;
+	border-style: solid;
+	border-width: 0.5px;
+    border-color: #d2d0d0;
+   
+}
+#box #myForm .input:focus {
+	outline: none;
+	 
+}
+#box #myForm{
+	margin-top: 20px;
+	display: inline-flex;
+	flex-direction: column;
+}
+
+#box #myForm  #login,#signup{
+	
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+	margin-top: 50px;
+	margin-left: 6%;
+	margin-right: 6%;
+    width: 88%;
+   	height: 40px;
+	background-color: #9E9999;
+    border-style: none;
+}
+
+#box #myForm  #login,#signup:hover{
+	background-color:#ADA8A8;
+	cursor: pointer;
+}
+#box #myForm #login,#signup:active {
+	
+ 	cursor: pointer;
+    border-style: none;
+}
+ #box #myForm  #login,#signup:focus {
+    
+ 	cursor: pointer;
+    outline: none;
+}
+#box #myForm #signup{
+	margin-bottom: 20px;
+}
+ #box #bottombar{
+ 	margin-top: 80px;
+	margin-right: 8%;
+	margin-bottom: 8px;
+}
+#bottombar span{
+	margin: 0 5px;
+    color: #626060;
+}
+ #bottombar .dotted{
+ 	font-size: 0.9em;
+   display: inline-block;
+   float: right;
+ }
+#bottombar a{
+	text-decoration: none;
+	color: #767575;
+}
+#bottombar a:active{
+	color: #767575;
+}
+::-webkit-input-placeholder { /* WebKit browsers */  
+    color:    #BDBDBD;  
+}  
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */  
+   color:     #BDBDBD;  
+   opacity:  1;  
+}  
+::-moz-placeholder { /* Mozilla Firefox 19+ */  
+   color:      #BDBDBD;  
+   opacity:  1;  
+}  
+:-ms-input-placeholder { /* Internet Explorer 10+ */  
+   color:      #B3B3B3;  
+} 
